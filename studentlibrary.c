@@ -58,7 +58,7 @@ int main() {
     for (i = 0; i < 100; i++) {
         printf("Enter book title: ");
         scanf("%s", books[i].title);
-        printf("Enter book author: ");
+        printf("                     Enter book author: ");
         scanf("%s", books[i].author);
         printf("Enter book ID: ");
         scanf("%d", &books[i].id);
